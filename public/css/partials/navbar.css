@@ -99,7 +99,7 @@ body {
 }
 
 .nav__scroll {
-  background-color: #0d5966;
+  background-color: #382660;
 }
 
 .theme_switch {
@@ -121,7 +121,6 @@ body {
     height: 70px;
     width: 70px;
     top: 0px;
-
   }
 
   .nav-btn label {
@@ -162,11 +161,11 @@ body {
     font-size: 30px;
   }
 
-  .nav #nav-check:not(:checked)~.nav-links {
+  .nav #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
 
-  #nav-check:checked~.nav-links {
+  #nav-check:checked ~ .nav-links {
     height: calc(320px - 70px);
     overflow-y: auto;
     margin-top: -10px;
