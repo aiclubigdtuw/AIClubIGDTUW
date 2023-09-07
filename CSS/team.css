@@ -1,10 +1,43 @@
+/* .navbar.navbar-transparent {
+  opacity: 0.98;
+}
+
+@media (max-width: 992px) {
+  .navbar.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #d500f9;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin: 0.7rem 0.7rem;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+} */
+
 body {
   margin: 0;
   padding: 0;
   height: center;
   width: fit-content;
   text-align: center;
-  background: linear-gradient(to right, #000000, #320146);
+  background: linear-gradient(
+    to right,
+    #7a1d47,
+    #53173c,
+    #331535,
+    #0d1234,
+    #11285c,
+    #1a3176,
+    #353ea0
+  );
   /* background-image: url("https://spaceexplored.com/wp-content/uploads/sites/10/2022/07/iphone-space-telescope-wallpaper_01.jpg");
   background-size: cover; /* or background-size: contain; */
   /*background-position: center center;
@@ -68,20 +101,22 @@ body {
 }
 
 h1 {
-  height: 60px;
-  margin-top: 60px;
+  height: 70px;
+  /* margin-top: 30px; */
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.452); */
 }
 
 h4 {
+  height: 30px;
+  font-size: 30px;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.452); */
 }
 
 .main-head {
@@ -91,7 +126,7 @@ h4 {
   /* font-family: "Roboto", sans-serif; */
   letter-spacing: 1px;
   color: #c038ff;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .teams {
@@ -173,7 +208,7 @@ h4 {
   color: #fff;
   padding: 0 0.5em;
   line-height: 1.5em;
-  background-color: #2b0025;
+  background-color: #330146f6;
 }
 @media screen and (max-width: 800px) {
   .main-head {
@@ -431,96 +466,3 @@ h4 {
 .fadeIn-bottom {
   top: 90%;
 }
-
-/* DROPDOWN CSS */
-/* 
-.mobileFilter {
-  text-align: center !important;
-  margin: 0 auto 4% auto;
-}
-
-.active-tag {
-  font-weight: bold;
-  color: #eddcd2;
-  background-color: #022b3a;
-}
-
-.tags-button {
-  height: 100%;
-  font-size: 20px;
-  color: #33023a;
-  background-color: #f4f4f4;
-  border: 2px solid #33023a;
-  border-radius: 25px;
-}
-
-.tags-button:hover {
-  background-color: #33023a;
-  color: #f4f4f4;
-}
-
-.dropdown-item {
-  cursor: pointer;
-  padding: 7%;
-  color: #f4f4f4;
-}
-
-.my-menu {
-  padding-left: 0%;
-  margin-left: 0%;
-}
-
-.dropdown-menu {
-  max-height: 350px;
-  width: 100% !important;
-  font-weight: 400 !important;
-  overflow-y: scroll;
-  background-color: #33023a;
-  color: #eddcd2;
-}
-.dropdown-menu {
-  scrollbar-width: normal;
-  scrollbar-color: #f6bd60 #f6bd60;
-}
-
-.dropdown-menu::-webkit-scrollbar {
-  margin: 0;
-  width: 10px;
-  opacity: 0.5;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb {
-  background-color: #c1c1c1;
-  opacity: 1;
-  border-radius: 50px;
-}
-
-.dropdown-menu::-webkit-scrollbar-thumb:hover {
-  background-color: #f49997;
-}
-
-.dropdown-menu::-webkit-scrollbar-track {
-  background-color: #f6bd60;
-}
-
-.dropdown-menu::-webkit-scrollbar-track:hover {
-  background-color: #f49997;
-}
-
-.dropdown-item:hover {
-  background-color: grey;
-  color: #f4f4f4 !important;
-}
-.dropdown-menu.show {
-  position: absolute !important;
-  will-change: transform !important;
-  top: auto !important;
-  left: 0px !important;
-  transform: translate3d(0px, 0px, 0px) !important;
-}
-
-.dropdown {
-  display: inline-block;
-} */
-
-/* DROPDOWN CSS END */
