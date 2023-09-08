@@ -76,45 +76,59 @@ main h1,
 }
 
 main {
-  /* margin-top: 20px; */
-  height: 100vh;
-  background-image: url(Assets/Home/Highlights.png);
-  background-color: #000;
-  width: 100%;
+  background-image: url("Assets/Home/collage.jpeg");
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  /* height: 50vh; */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  /* background-color: #000; */
   color: white;
   font-family: var(--font-sans);
-  background-size: cover;
-  display: flex;
+  text-align: center; /* Center the text horizontally */
+  padding: 100px 0; /* Add padding to separate the text from the edges */
 }
 
-main div {
-  /* width: 50%; */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 40px;
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Adjust the alpha (opacity) value to darken the image */
+  z-index: -1;
 }
 
 .main-text {
   width: 60%;
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Add a semi-transparent background to the text container */
+  padding: 20px;
 }
 
-main h4 {
-  /* color: var(---dark-theme-purple); */
-  font-weight: 200;
+main h4,
+main h1 {
   margin: 0;
+  font-weight: 200;
+  color: white; /* Set text color to white */
   font-size: 18px;
 }
 
 main h1 {
   font-family: var(--font-heading);
   font-size: 46px;
-  margin: 50px;
-}
-
-main div img {
-  height: 100%;
+  margin-top: 20px; /* Adjust the top margin as needed */
 }
 
 .about_container {
@@ -143,7 +157,7 @@ main div img {
   width: 70%;
   margin: 80px auto 100px;
   padding: 40px 20px;
-  background-color: #382660;
+  background-color: #0d12347a;
   border-radius: 20px;
 }
 
@@ -233,6 +247,7 @@ main div img {
 
 .updates_desc {
   text-align: center;
+  justify-content: center;
 }
 
 .updates_desc:hover {
@@ -247,8 +262,8 @@ main div img {
 }
 
 .updates_col img {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -264,7 +279,7 @@ main div img {
   transition: 0.3s;
   border: none;
   margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .register-btn:hover {
