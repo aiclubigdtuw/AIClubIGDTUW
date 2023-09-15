@@ -14,6 +14,9 @@
 
 html {
   scroll-behavior: smooth;
+  /* background-image: url(Assets/Home/collage.jpeg);
+  background-size: cover;
+  z-index: 1; */
 }
 
 /* .navbar.navbar-transparent {
@@ -32,13 +35,20 @@ body {
   /*background-color: var(--dark-bg);*/
   background: linear-gradient(
     to right,
-    #7a1d47,
-    #53173c,
-    #331535,
-    #0d1234,
-    #11285c,
-    #1a3176,
-    #353ea0
+    #260930,
+    #4a1252,
+    #4e1d75,
+    /* #712984,
+    #872ba6,
+    #9c5c94,
+    #be52d1,
+    #be52d1,
+    #9c5c94,
+    #872ba6,
+    #712984, */
+      #4e1d75,
+    #4a1252,
+    #260930
   );
   color: var(--dark-text);
   font-family: "Saira", sans-serif;
@@ -76,44 +86,24 @@ main h1,
 }
 
 main {
-  background-image: url("Assets/Home/collage.jpeg");
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  /* height: 50vh; */
-  background-repeat: no-repeat; /* Prevent image repetition */
-  /* background-color: #000; */
+  background: url(collage.jpeg);
+  z-index: 1;
   color: white;
   font-family: var(--font-sans);
-  text-align: center; /* Center the text horizontally */
-  padding: 100px 0; /* Add padding to separate the text from the edges */
+  text-align: center;
 }
 
-main::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.main-img img {
   width: 100%;
-  height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.6
-  ); /* Adjust the alpha (opacity) value to darken the image */
-  z-index: -1;
+  object-fit: cover;
+  /* opacity: 70%; */
+  background: black;
+  position: relative;
 }
 
 .main-text {
   width: 60%;
-  margin: 0 auto; /* Center the container horizontally */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Add a semi-transparent background to the text container */
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -121,14 +111,14 @@ main h4,
 main h1 {
   margin: 0;
   font-weight: 200;
-  color: white; /* Set text color to white */
-  font-size: 18px;
+  color: white;
+  font-size: 25px;
 }
 
 main h1 {
   font-family: var(--font-heading);
-  font-size: 46px;
-  margin-top: 20px; /* Adjust the top margin as needed */
+  font-size: 55px;
+  margin-top: 20px;
 }
 
 .about_container {

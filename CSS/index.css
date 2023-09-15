@@ -482,13 +482,14 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
+  /* margin-left: calc(50%-220px); */
 }
 
 .list-inline-item {
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
 }
 
 .initialism {
@@ -960,7 +961,7 @@ pre code {
   .col-sm-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
-    max-width: 41.66667%;
+    /* max-width: 41.66667%; */
   }
   .col-sm-6 {
     -ms-flex: 0 0 50%;
