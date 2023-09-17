@@ -227,7 +227,7 @@ main h1 {
   margin-bottom: 250px;
   display: flex;
   gap: 80px;
-  backdrop-filter: blur(500px);
+  /* backdrop-filter: blur(500px); */
 }
 
 .updates_desc {
@@ -298,6 +298,7 @@ main h1 {
     padding: 0;
     position: relative;
     top: 200px;
+    font-size: 80px;
   }
 
   .main-text h1 {
