@@ -291,11 +291,25 @@ h4 {
   width: inherit;
   /* max-width: min-content; */
   height: inherit;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  border-radius: 18px;
 }
 /* Custom CSS to control card width */
 .card-wrapper {
   flex: 0 0 calc(20% - 16px); /* Set the maximum width and account for the gap */
 }
+
+/* Animation */
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
 
 @media (min-width: 1360px) {
   .lg\:grid-cols-5 {

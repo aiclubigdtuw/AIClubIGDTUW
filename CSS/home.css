@@ -152,13 +152,34 @@ main h1 {
   border-radius: 20px;
 }
 
+.about_container_faculty {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 10%;
+  padding: 10px 20px;
+  /*backdrop-filter: blur(500px); 
+  aspect-ratio: 2; */
+  box-shadow: 0px 1px 2px 0px rgba(195, 0, 255, 0.7),
+            1px 2px 4px 0px rgba(195, 0, 255, 0.7),
+            2px 4px 8px 0px rgba(195, 0, 255, 0.7),
+            2px 4px 16px 0px rgba(195, 0, 255, 0.7);
+}
+
+.about_container_faculty h2 {
+  font-family: var(--font-heading);
+  font-weight: 300;
+  font-size: 40px;
+  margin: auto;
+}
+
 .vc_photo {
   text-align: center;
   align-items: center;
   justify-content: center;
-  /* box-sizing: border-box;
-  border: 1px solid var(--purple);
-  border-radius: 10px; */
+  box-sizing: border-box;
+  /* border: 1px solid var(--purple);
+  border-radius: 6px; */
 }
 
 .vc_photo h4 {
@@ -175,7 +196,10 @@ main h1 {
   align-items: center;
   justify-content: center;
   width: 40%;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 #arun {
@@ -185,7 +209,7 @@ main h1 {
 }
 
 .vc_text {
-  width: 110%;
+  width: 150%;
   text-align: center;
   line-height: 1.8;
   transition: all 0.5s ease;
@@ -197,6 +221,9 @@ main h1 {
   border-radius: 10px;
   cursor: pointer;
   flex-direction: column;
+  padding: 10px 20px;
+
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .vc_text p {
@@ -313,6 +340,17 @@ main h1 {
   }
 
   .about_container div {
+    width: 100%;
+  }
+
+  .about_container_faculty {
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .about_container_faculty div {
     width: 100%;
   }
 
