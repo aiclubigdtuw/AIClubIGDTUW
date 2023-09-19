@@ -94,7 +94,8 @@ main {
 }
 
 .main-img img {
-  width: 100%;
+  width: 95%;
+  margin-top: 5vh;
   object-fit: cover;
   background: #f0f0f0; /* Background color for the neumorphic effect */
   border-radius: 10px; /* Adjust the border radius as needed */
@@ -106,10 +107,14 @@ main {
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3), -8px -8px 15px rgba(255, 255, 255, 0.7);
 }
 
-.main-text {
+/* .main-text {
   width: 60%;
   margin: 0 auto;
   padding: 20px;
+} */
+
+.main-text h4{
+  margin-top: 3vh;
 }
 .AIclub {
   font-size: 70px;
@@ -316,18 +321,19 @@ main h1 {
   }
 
   .main-text {
-    width: 90%;
-    margin: auto;
+    /* width: 90%; */
+    /* margin: auto; */
+    margin-top: 5vh;
     z-index: 1;
-    padding: 0;
-    position: relative;
+    padding: 2vh;
+    /* position: relative; */
     top: 200px;
-    font-size: 80px;
+    /* font-size: 80px; */
   }
 
-  .main-text h1 {
-    font-size: 40px;
-  }
+  /* .main-text h1 {
+    font-size: 40px; 
+  } */
 
   .about_container {
     flex-direction: column;
@@ -580,4 +586,38 @@ main h1 {
 [data-modal-state="open"] .modal__header,
 [data-modal-state="open"] .modal__content {
   transition: opacity 450ms;
+}
+
+
+@media screen and (max-width:500px){
+  .container-fluid {
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .main-text h4 {
+    font-size: 1.4rem;
+  }
+
+  .AIclub{
+    font-size: 2.5rem;
+  }
+
+  .updates_col img {
+    width: 80%;
+    height:auto ;
+    object-fit: cover;
+}
+
+  /* .main-img img {
+    margin-top: 10vh;
+    vertical collage needed 
+  } */
 }
