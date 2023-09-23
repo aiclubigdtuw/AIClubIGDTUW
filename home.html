@@ -1,101 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="CSS/home.css" />
-    <link rel="stylesheet" href="CSS/navbar.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Home</title>
-    <link rel="icon" href="Assets/Index/logo.png" type="image/x-icon" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 
-  <body>
-    <!-- <style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="CSS/home.css" />
+  <link rel="stylesheet" href="CSS/navbar.css" />
+
+  <title>Home</title>
+  <link rel="icon" href="Assets/Index/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- <style>
      @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
    </style> -->
 
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <img src="Assets/Index/logo.png" alt="club logo" width="50px" />
-        <a
-          class="navbar-brand heading-black"
-          href="index.html"
-          style="color: white "
-        >
-          AI Club IGDTUW
-        </a>
-        <button
-          class="navbar-toggler navbar-toggler-right border-0"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-grid"
-          >
-            <rect x="3" y="3" width="7" height="7"></rect>
-            <rect x="14" y="3" width="7" height="7"></rect>
-            <rect x="14" y="14" width="7" height="7"></rect>
-            <rect x="3" y="14" width="7" height="7"></rect>
-          </svg>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="team.html">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="events.html">Events</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!-- <main class="main">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <img src="Assets/Index/logo.png" alt="club logo" width="50px" />
+      <a class="navbar-brand heading-black" href="index.html" style="color: white ">
+        AI Club IGDTUW
+      </a>
+      <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-grid">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="events.html">Events</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- <main class="main">
       <div class="main-text">
         <img src="Assets/Home/collage.jpeg" style="align-self: center" />
         <h4 data-aos="fade-up" style="margin-top: 200px">
@@ -107,14 +75,14 @@
         </h1>
       </div>
     </main> -->
-    <main class="main">
-      <div class="main-img">
-        <img src="Assets/Home/Highlights (4).png" style="align-self: center" />
+  <main class="main">
+    <div class="main-img">
+      <img src="Assets/Home/Highlights (4).png" style="align-self: center" />
       <div class="main-text">
         <h1 data-aos="fade-up" style="font-size: 58px;">
           The Revolution is Here,
         </h1>
-        <h1 data-aos="fade-up" style="font-size: 58px;">  
+        <h1 data-aos="fade-up" style="font-size: 58px;">
           The Revolution is AI Club IGDTUW
         </h1>
         <h4 data-aos="fade-up" style="margin-top: 5%; font-size: 25px;">
@@ -122,177 +90,250 @@
           technological revolution.
         </h4>
       </div>
-    </main>
+  </main>
 
-    <div class="about_us">
-      <div class="about_container" style="margin-top: 200px; margin-bottom: 40px;">
-        <div data-aos="fade-up" style="padding-top: 2%;">
-          <h2>Welcome to AI Club IGDTUW</h2>
-        </div>
-        <div class="about_text" data-aos="fade-up">
-          <p>
-            Be it the language of machines, the anatomy of computers., or a
-            wholesome experience of technology, we have conquered it all. Here
-            capabilities are tested and expanded multifolds. We are a team of
-            talented women who operate the web, the engines with an undying
-            spirit and determination running in our veins. Do you have what it
-            takes to become one of us?
-          </p>
-        </div>
+  <div class="about_us">
+    <div class="about_container" style="margin-top: 200px; margin-bottom: 40px;">
+      <div data-aos="fade-up" style="padding-top: 2%;">
+        <h2>Welcome to AI Club IGDTUW</h2>
       </div>
-      <div data-aos="fade-up" class="intro_video">
-        <video
-          width="100%"
-          height="auto"
-          style="border-radius: 10px; border: 1px solid #382660"
-          controls
-          autoplay
-          playsinline
-          loop
-        >
-          <source src="\Assets\intro-video-2022.mp4" type="video/mp4" />
-          <source src="movie.ogg" type="video/ogg" />
-          Your browser does not support this video.
-        </video>
-      </div>
-    </div>
-    <div class="about_container">
-      <div data-aos="fade-up" class="vc_photo">
-        <img src="Assets/Home/VC Ma'am.png" alt="" />
-        <h4>Dr. Amita Dev</h4>
-      </div>
-      <div data-aos="fade-up" class="vc_text">
-        <h3>Honourable Vice Chancellor, PATRON - AI CLUB</h3>
+      <div class="about_text" data-aos="fade-up">
         <p>
-          Her journey with IGDTUW, since its inception in 1998 as IGIT, has been
-          exemplary, culminating in the transformation of this
-          institution into an icon for women empowerment. Under her leadership,
-          IGDTUW has evolved into a national flagship, research-led university,
-          with a mission to create an environment for excellence in professional
-          education and ensure active participation in the fields of
-          Engineering, Science, Management, and Technology. She aims to strike a fine balance
-          between the world of work and life, and considers her students as
-          mascots of this mission.
+          Be it the language of machines, the anatomy of computers., or a
+          wholesome experience of technology, we have conquered it all. Here
+          capabilities are tested and expanded multifolds. We are a team of
+          talented women who operate the web, the engines with an undying
+          spirit and determination running in our veins. Do you have what it
+          takes to become one of us?
         </p>
       </div>
     </div>
-    <div class="about_container">
-      <div data-aos="fade-up" class="vc_photo">
-        <img src="Assets/Home/Arun Sir.png" alt="" />
-        <h4>Dr. Arun Sharma</h4>
+    <div data-aos="fade-up" class="intro_video">
+      <video width="100%" height="auto" style="border-radius: 10px; border: 1px solid #382660" controls autoplay
+        playsinline loop>
+        <source src="\Assets\intro-video-2022.mp4" type="video/mp4" />
+        <source src="movie.ogg" type="video/ogg" />
+        Your browser does not support this video.
+      </video>
+    </div>
+  </div>
+  <div class="about_container">
+    <div data-aos="fade-up" class="vc_photo">
+      <img src="Assets/Home/VC Ma'am.png" alt="" />
+      <h4>Dr. Amita Dev</h4>
+    </div>
+    <div data-aos="fade-up" class="vc_text">
+      <h3>Honourable Vice Chancellor, PATRON - AI CLUB</h3>
+      <p>
+        Her journey with IGDTUW, since its inception in 1998 as IGIT, has been
+        exemplary, culminating in the transformation of this
+        institution into an icon for women empowerment. Under her leadership,
+        IGDTUW has evolved into a national flagship, research-led university,
+        with a mission to create an environment for excellence in professional
+        education and ensure active participation in the fields of
+        Engineering, Science, Management, and Technology. She aims to strike a fine balance
+        between the world of work and life, and considers her students as
+        mascots of this mission.
+      </p>
+    </div>
+  </div>
+  <div class="about_container">
+    <div data-aos="fade-up" class="vc_photo">
+      <img src="Assets/Home/Arun Sir.png" alt="" />
+      <h4>Dr. Arun Sharma</h4>
+    </div>
+    <div data-aos="fade-up" class="vc_text">
+      <h3>Faculty Coordinator - AI CLUB</h3>
+      <p>
+        Prof. Arun Sharma is a revered academic at IGDTUW, with over two and a
+        half decades of pedagogical expertise, complemented by a doctoral
+        degree. His proficiency extends across the domains of Machine
+        Learning, Data Science and Software Engineering, marked by a
+        prodigious portfolio of 75+ scholarly publications and successful
+        mentorship of 10 PhD scholars.His unwavering dedication to empowering
+        students and fostering innovation establishes him as a beacon of
+        inspiration in the academic realm.
+      </p>
+    </div>
+  </div>
+  <div class="about_container">
+    <div data-aos="fade-up" class="vc_photo">
+      <img src="Assets/Home/Untitled design.png" alt="" />
+      <h4>Dr. Ritu Rani</h4>
+    </div>
+    <div data-aos="fade-up" class="vc_text">
+      <h3>Faculty Coordinator - AI CLUB</h3>
+      <p>
+        Ritu Ma'am is a true luminary in her field, bringing a wealth of
+        expertise and knowledge that goes far beyond the ordinary. Her
+        remarkable guidance serves as a catalyst for innovation, lighting the
+        way for aspiring students to soar to unprecedented heights. Her
+        unwavering commitment to education remains an enduring source of
+        inspiration, moulding the leaders of tomorrow.
+      </p>
+    </div>
+  </div>
+  <div data-aos="fade-up" class="updates" id="updates">
+    <h3>Latest Updates</h3>
+    <div class="updates_container">
+      <div data-aos="fade-up" class="updates_col" style="display: flex; justify-content: center">
+        <img src="Assets/Home/2027orientation.png" alt="" />
       </div>
-      <div data-aos="fade-up" class="vc_text">
-        <h3>Faculty Coordinator - AI CLUB</h3>
+      <div data-aos="fade-up" class="updates_col updates_desc">
+        <h2>Orientation 2022-23</h2>
         <p>
-          Prof. Arun Sharma is a revered academic at IGDTUW, with over two and a
-          half decades of pedagogical expertise, complemented by a doctoral
-          degree. His proficiency extends across the domains of Machine
-          Learning, Data Science and Software Engineering, marked by a
-          prodigious portfolio of 75+ scholarly publications and successful
-          mentorship of 10 PhD scholars.His unwavering dedication to empowering
-          students and fostering innovation establishes him as a beacon of
-          inspiration in the academic realm.
+          Do you remember being intrigued by TARS in Interstellar and
+          wondering whether something similar could possibly exist in the
+          future? Or if the Matrix could sustain itself from getting ripped by
+          the AI? 🔭 They say we fear the unknown, so what better way to
+          safeguard ourselves than to leverage our knowledge of AI. And what
+          better way to learn about AI than to join the AI Club of IGDTUW
+          which is your one stop shop for all things data, droid and tech! 🤖
+          Join us at our upcoming offline orientation and get to know our
+          society and team up close. Meet us on 22nd September from 11 AM to 1 PM
+          Venue: Auditorium 🚀
         </p>
+        <button class="register-btn" style="text-decoration: none">
+          <a href="register">Learn More</a>
+        </button>
       </div>
     </div>
-    <div class="about_container">
-      <div data-aos="fade-up" class="vc_photo">
-        <img src="Assets/Home/Untitled design.png" alt="" />
-        <h4>Dr. Ritu Rani</h4>
-      </div>
-      <div data-aos="fade-up" class="vc_text">
-        <h3>Faculty Coordinator - AI CLUB</h3>
-        <p>
-          Ritu Ma'am is a true luminary in her field, bringing a wealth of
-          expertise and knowledge that goes far beyond the ordinary. Her
-          remarkable guidance serves as a catalyst for innovation, lighting the
-          way for aspiring students to soar to unprecedented heights. Her
-          unwavering commitment to education remains an enduring source of
-          inspiration, moulding the leaders of tomorrow.
-        </p>
-      </div>
-    </div>
-    <div data-aos="fade-up" class="updates" id="updates">
-      <h3>Latest Updates</h3>
-      <div class="updates_container">
-        <div
-          data-aos="fade-up"
-          class="updates_col"
-          style="display: flex; justify-content: center"
-        >
-          <img src="Assets/Home/2027orientation.png" alt="" />
+  </div>
+
+  <!-- Footer Section -->
+  <div data-aos="fade-up">
+    <footer class="outer_box">
+      <div class="row1">
+
+        <div class="ai_logo">
+          <div class="brand">
+            <div class="brand_logo">
+              <img src="Assets/Index/logo.png" alt="logo" class="logo">
+              <!-- <link rel="icon" href="Assets/Index/logo.png" type="image/x-icon" /> -->
+            </div>
+            <span class="brand_title">AIClub @ IGDTUW</span>
+              <!-- <h2 class="text">We're Always Happy To Help</h2>
+              <h2 class="mail"><a href="mailto:grabbitofficial1@gmail.com">AIClubIGDTUW@gmail.com</a></h2> -->
+          </div>
+
+
+          <div class="social">
+            <!-- <h3 class="social_text">Find Us On Social Media:</h3> -->
+            <ul class="social_links">
+              <li class="socia_link">
+                <a href="https://www.linkedin.com/company/grabbits/" target="_blank" aria-label="Visit us on Linkedin"
+                  title="Linkedin (External Link)" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="socia_link">
+                <a href="https://www.instagram.com/grabbits_/" target="_blank" aria-label="Visit us on Instagram"
+                  title="Instagram (External Link)" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+  
+              <li class="socia_link">
+                <a href="https://twitter.com/grabbits_" target="_blank" aria-label="Visit us on Twitter"
+                  title="Twitter (External Link)" rel="noopener noreferrer">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+  
+            </ul>
+          </div>
         </div>
-        <div data-aos="fade-up" class="updates_col updates_desc">
-          <h2>Orientation 2022-23</h2>
-          <p>
-            Do you remember being intrigued by TARS in Interstellar and
-            wondering whether something similar could possibly exist in the
-            future? Or if the Matrix could sustain itself from getting ripped by
-            the AI? 🔭 They say we fear the unknown, so what better way to
-            safeguard ourselves than to leverage our knowledge of AI. And what
-            better way to learn about AI than to join the AI Club of IGDTUW
-            which is your one stop shop for all things data, droid and tech! 🤖
-            Join us at our upcoming offline orientation and get to know our
-            society and team up close. Meet us on 22nd September from 11 AM to 1 PM
-            Venue: Auditorium 🚀
-          </p>
-          <button class="register-btn" style="text-decoration: none">
-            <a href="register">Learn More</a>
-          </button>
-        </div>
+
+        <div class="site-footer">
+          <div class="north">
+            <p>Find us</p>
+              <div class="one">
+                <i class="fas fa-map-marker-alt"></i> <!-- Location Icon -->
+                  <div class="text">IGDTUW, Opp to James church, Delhi-110006</div>
+              </div>
+              <div class="one">
+                <i class="fas fa-phone"></i> <!-- Phone Icon -->
+                  <div class="text">
+                    Phone : +91 92056 42321
+                  </div>
+              </div>
+              <div class="one">
+                <i class="fas fa-envelope"></i> <!-- Email Icon -->
+                  <div class="text"> aiclubigdtuw@gmail.com</div>
+              </div>
+          </div>
       </div>
-    </div>
-    <svg
-      aria-hidden="true"
-      style="position: absolute; width: 0; height: 0; overflow: hidden"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-    >
-      <defs>
-        <symbol id="icon-cross" viewBox="0 0 32 32">
-          <title>close</title>
-          <path
-            d="M31.7 25.7L22 16l9.7-9.7a1 1 0 0 0 0-1.4L27.1.3a1 1 0 0 0-1.4 0L16 10 6.3.3a1 1 0 0 0-1.4 0L.3 4.9a1 1 0 0 0 0 1.4L10 16 .3 25.7a1 1 0 0 0 0 1.4l4.6 4.6a1 1 0 0 0 1.4 0L16 22l9.7 9.7a1 1 0 0 0 1.4 0l4.6-4.6a1 1 0 0 0 0-1.4z"
-          />
-        </symbol>
-      </defs>
-    </svg>
-    <div style="margin-bottom: 90px"></div>
-    <script>
-      window.addEventListener("load", videoScroll);
-      window.addEventListener("scroll", videoScroll);
-      function videoScroll() {
-        if (document.querySelectorAll("video[autoplay]").length > 0) {
-          var windowHeight = window.innerHeight,
-            videoEl = document.querySelectorAll("video[autoplay]");
-          for (var i = 0; i < videoEl.length; i++) {
-            var thisVideoEl = videoEl[i],
-              videoHeight = thisVideoEl.clientHeight,
-              videoClientRect = thisVideoEl.getBoundingClientRect().top;
-            if (
-              videoClientRect <= windowHeight - videoHeight * 0.5 &&
-              videoClientRect >= 0 - videoHeight * 0.5
-            ) {
-              thisVideoEl.play();
-            } else {
-              thisVideoEl.pause();
-            }
+
+      
+
+        <div class="footer_design">
+          <div class="footer-right">
+            <p>Contact us</p>
+            <form action="#" method="post">
+              <input type="text" name="email" placeholder="Email" />
+              <textarea name="message" placeholder="Message"></textarea>
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <div class="separator"></div>
+      <div class="row2">Copyright © 2023 AIClub @ IGDTUW </div>
+    </footer>
+
+  </div>
+
+
+
+
+
+  <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <symbol id="icon-cross" viewBox="0 0 32 32">
+        <title>close</title>
+        <path
+          d="M31.7 25.7L22 16l9.7-9.7a1 1 0 0 0 0-1.4L27.1.3a1 1 0 0 0-1.4 0L16 10 6.3.3a1 1 0 0 0-1.4 0L.3 4.9a1 1 0 0 0 0 1.4L10 16 .3 25.7a1 1 0 0 0 0 1.4l4.6 4.6a1 1 0 0 0 1.4 0L16 22l9.7 9.7a1 1 0 0 0 1.4 0l4.6-4.6a1 1 0 0 0 0-1.4z" />
+      </symbol>
+    </defs>
+  </svg>
+  <div style="margin-bottom: 90px"></div>
+  <script>
+    window.addEventListener("load", videoScroll);
+    window.addEventListener("scroll", videoScroll);
+    function videoScroll() {
+      if (document.querySelectorAll("video[autoplay]").length > 0) {
+        var windowHeight = window.innerHeight,
+          videoEl = document.querySelectorAll("video[autoplay]");
+        for (var i = 0; i < videoEl.length; i++) {
+          var thisVideoEl = videoEl[i],
+            videoHeight = thisVideoEl.clientHeight,
+            videoClientRect = thisVideoEl.getBoundingClientRect().top;
+          if (
+            videoClientRect <= windowHeight - videoHeight * 0.5 &&
+            videoClientRect >= 0 - videoHeight * 0.5
+          ) {
+            thisVideoEl.play();
+          } else {
+            thisVideoEl.pause();
           }
         }
       }
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="./index_files/bootstrap.min.js.download"></script>
+    }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./index_files/bootstrap.min.js.download"></script>
 
-    <script>
-      AOS.init({
-        duration: 800,
-      });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  </body>
+  <script>
+    AOS.init({
+      duration: 800,
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</body>
+
 </html>
