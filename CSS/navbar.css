@@ -9,7 +9,7 @@
 }
 
 .navbar .navbar-brand {
-  font-family: 'Georgia', sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 1.5rem;
   /* font-weight: 900; */
   color: #d500f9;
@@ -21,8 +21,8 @@
   margin: 0.7rem 0.7rem;
 }
 .navbar .navbar-nav .nav-item .nav-link {
-  font-family: 'Georgia', sans-serif;
-   font-size:larger; 
+  font-family: "Saira", sans-serif;
+  font-size: larger;
 }
 .navbar {
   position: relative;
@@ -35,8 +35,8 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1.5rem 1.25rem;
-  background:linear-gradient(  to right,    #52235c,      #742d8c,      #66328c,     #6b2e78,  #7e207e,     #742d8c  );
-  box-shadow: inset 3px 5px 6px 0px rgba(0,0,0,0.6), inset -5px -3px 6px rgba(255,255,255,0.5);
+  /* background:linear-gradient(  to right,    #52235c,      #742d8c,      #66328c,     #6b2e78,  #7e207e,     #742d8c  ); */
+  /* box-shadow: inset 3px 5px 6px 0px rgba(0,0,0,0.6), inset -5px -3px 6px rgba(255,255,255,0.5); */
 }
 .navbar > .container,
 .navbar > .container-fluid {

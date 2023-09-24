@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap&family=Patua+One&family=Croissant+One&display=swap&family=Sarabun:wght@300&display=swap");
 
 :root {
-  /* --font-heading: "Titillium Web", sans-serif; */
+  --font-heading: "Saira", sans-serif;
   --font-sans: "Saira", sans-serif;
   --purple-dark: #ffffff;
   --purple: #ffffff;
@@ -32,7 +32,9 @@ html {
 body {
   padding: 0;
   margin: 0;
+  text-align: center;
   /*background-color: var(--dark-bg);*/
+  font-family: "Saira", sans-serif;
   background: linear-gradient(
     to right,
     #260930,
@@ -51,7 +53,6 @@ body {
     #260930
   );
   color: var(--dark-text);
-  font-family: 'Georgia', sans-serif;
 }
 
 /* h1, h2, h3, h4, h5, h6{
@@ -89,7 +90,7 @@ main {
   background: url(collage.jpeg);
   z-index: 1;
   color: white;
-  font-family: 'Croissant One', cursive;
+
   text-align: center;
 }
 
@@ -99,12 +100,14 @@ main {
   object-fit: cover;
   background: #f0f0f0; /* Background color for the neumorphic effect */
   border-radius: 10px; /* Adjust the border radius as needed */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px 1px 9px rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -1px 1px 9px rgba(255, 255, 255, 0.5);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .main-img img:hover {
   transform: scale(1.05); /* Optional: Add a slight scaling effect on hover */
-  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3), -8px -8px 15px rgba(255, 255, 255, 0.7);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3),
+    -8px -8px 15px rgba(255, 255, 255, 0.7);
 }
 
 /* .main-text {
@@ -113,26 +116,27 @@ main {
   padding: 20px;
 } */
 
-.main-text h4{
+.main-text h4 {
   margin-top: 3vh;
 }
 .AIclub {
   font-size: 70px;
   color: #eee0e0;
   text-align: center;
-  font-family: 'Patua One',cursive;
+  font-family: "Saira", cursive;
   -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
   -moz-animation: glowing-text 1s ease-in-out infinite alternate;
   animation: glowing-text 1s ease-in-out infinite alternate;
-  
 }
 @keyframes glowing-text {
   0% {
-    text-shadow: 0 0 10px #eee0e0, 0 0 10px #eee0e0, 0 0 30px #2e00e6, 0 0 40px #6300e6, 0 0 50px #c300e6, 0 0 60px #e200e6, 0 0 70px #e600ca;
-}
-  
+    text-shadow: 0 0 10px #eee0e0, 0 0 10px #eee0e0, 0 0 30px #2e00e6,
+      0 0 40px #6300e6, 0 0 50px #c300e6, 0 0 60px #e200e6, 0 0 70px #e600ca;
+  }
+
   100% {
-    text-shadow: 0 0 20px #eee0e0, 0 0 10px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #eee0e0, 0 0 10px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
@@ -190,9 +194,9 @@ main h1 {
   /*backdrop-filter: blur(500px); 
   aspect-ratio: 2; */
   box-shadow: 0px 1px 2px 0px rgba(195, 0, 255, 0.7),
-            1px 2px 4px 0px rgba(195, 0, 255, 0.7),
-            2px 4px 8px 0px rgba(195, 0, 255, 0.7),
-            2px 4px 16px 0px rgba(195, 0, 255, 0.7);
+    1px 2px 4px 0px rgba(195, 0, 255, 0.7),
+    2px 4px 8px 0px rgba(195, 0, 255, 0.7),
+    2px 4px 16px 0px rgba(195, 0, 255, 0.7);
 }
 
 .about_container_faculty h2 {
@@ -227,8 +231,7 @@ main h1 {
   width: 40%;
   /* margin-top: 5%; */
 
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
-
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 #arun {
@@ -626,12 +629,11 @@ main h1 {
   transition: opacity 450ms;
 }
 
-
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px) {
   .container-fluid {
     width: 100%;
-    padding-right: 0px; 
-    padding-left: 0px; 
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -644,22 +646,21 @@ main h1 {
     font-size: 1.4rem;
   }
 
-  .AIclub{
+  .AIclub {
     font-size: 2.5rem;
   }
 
   .updates_col img {
     width: 80%;
-    height:auto ;
+    height: auto;
     object-fit: cover;
-}
+  }
 
   /* .main-img img {
     margin-top: 10vh;
     vertical collage needed 
   } */
 }
-
 
 /* Footer style  */
 .outer_box {
@@ -673,11 +674,11 @@ main h1 {
   color: rgb(171, 169, 169);
   border-radius: 60px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
-              rgba(50, 50, 93, 0.25) 0px -50px 100px -20px,
-              rgba(0, 0, 0, 0.3) 0px -30px 60px -30px,
-              rgba(10, 37, 64, 0.35) 0px 2px 6px 0px inset;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px -50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px -30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px 2px 6px 0px inset;
 }
 
 .row1 {
@@ -810,7 +811,7 @@ main h1 {
 }
 
 .north h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 25px;
   font-weight: 650;
   padding-left: 0;
@@ -828,16 +829,15 @@ main h1 {
 }
 
 .one ion-icon {
-  color: #FFE321;
+  color: #ffe321;
 }
 
 .text {
   padding: 3px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 20px;
   margin-left: 10px;
 }
-
 
 /* Style for the footer container */
 .footer_design {
@@ -904,42 +904,40 @@ ion-icon {
   color: #888;
 }
 
-
-
 @media screen and (max-width: 550px) {
   .outer_box {
-      margin: 0 20px 20px 20px;
-      padding: 40px;
-      width: auto;
-      margin-bottom: 97px;
+    margin: 0 20px 20px 20px;
+    padding: 40px;
+    width: auto;
+    margin-bottom: 97px;
   }
   .row1 {
-      flex-direction: column;
-      row-gap: 40px;
+    flex-direction: column;
+    row-gap: 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .row1 {
-      flex-direction: column;
-      gap: 20px;
+    flex-direction: column;
+    gap: 20px;
   }
   .outer_box {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 550px) and (max-width: 768px) {
   .outer_box {
-      margin: 0 20px 20px 20px;
-      padding: 20px;
-      margin-bottom: 97px;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    margin-bottom: 97px;
   }
   .row1 {
-      flex-direction: column;
-      row-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
   }
   .row2 {
-      font-size: 16px;
+    font-size: 16px;
   }
 }

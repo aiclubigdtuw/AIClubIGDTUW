@@ -21,6 +21,8 @@ body {
     #4a1252,
     #260930
   );
+  max-width: 100%;
+  text-align: center;
   font-family: "Saira", sans-serif !important;
 }
 
@@ -1629,7 +1631,7 @@ img:hover {
   transform: scale(1.05); /* Increase the scale factor as needed */
 }
 
-.row{
+.row {
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -1646,11 +1648,11 @@ img:hover {
   color: rgb(171, 169, 169);
   border-radius: 60px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
-              rgba(50, 50, 93, 0.25) 0px -50px 100px -20px,
-              rgba(0, 0, 0, 0.3) 0px -30px 60px -30px,
-              rgba(10, 37, 64, 0.35) 0px 2px 6px 0px inset;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px -50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px -30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px 2px 6px 0px inset;
 }
 
 .row1 {
@@ -1784,7 +1786,7 @@ img:hover {
 }
 
 .north h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 25px;
   font-weight: 650;
   padding-left: 0;
@@ -1802,16 +1804,15 @@ img:hover {
 }
 
 .one ion-icon {
-  color: #FFE321;
+  color: #ffe321;
 }
 
 .text {
   padding: 3px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   margin-left: 10px;
 }
-
 
 /* Style for the footer container */
 .footer_design {
@@ -1878,42 +1879,40 @@ ion-icon {
   color: #888;
 }
 
-
-
 @media screen and (max-width: 550px) {
   .outer_box {
-      margin: 0 20px 20px 20px;
-      padding: 40px;
-      width: auto;
-      margin-bottom: 97px;
+    margin: 0 20px 20px 20px;
+    padding: 40px;
+    width: auto;
+    margin-bottom: 97px;
   }
   .row1 {
-      flex-direction: column;
-      row-gap: 40px;
+    flex-direction: column;
+    row-gap: 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .row1 {
-      flex-direction: column;
-      gap: 20px;
+    flex-direction: column;
+    gap: 20px;
   }
   .outer_box {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 550px) and (max-width: 768px) {
   .outer_box {
-      margin: 0 20px 20px 20px;
-      padding: 20px;
-      margin-bottom: 97px;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    margin-bottom: 97px;
   }
   .row1 {
-      flex-direction: column;
-      row-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
   }
   .row2 {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
