@@ -15,12 +15,14 @@
   color: #d500f9;
   text-transform: uppercase;
   margin-left: 20px;
+  margin-right: 0;
 }
 
 .navbar .navbar-nav .nav-item {
   margin: 0.7rem 0.7rem;
 }
 .navbar .navbar-nav .nav-item .nav-link {
+  text-align: center;
   font-family: "Saira", sans-serif;
   font-size: larger;
 }
@@ -34,7 +36,7 @@
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 1.25rem !important;
   /* background:linear-gradient(  to right,    #52235c,      #742d8c,      #66328c,     #6b2e78,  #7e207e,     #742d8c  ); */
   /* box-shadow: inset 3px 5px 6px 0px rgba(0,0,0,0.6), inset -5px -3px 6px rgba(255,255,255,0.5); */
 }
@@ -54,7 +56,7 @@
   display: inline-block;
   padding-top: 0.0625rem;
   padding-bottom: 0.0625rem;
-  margin-right: 1.25rem;
+  /* margin-right: 1.25rem; */
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -128,6 +130,9 @@
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  }
+  .navbar .navbar-brand {
+    margin-left: 0;
   }
 }
 
